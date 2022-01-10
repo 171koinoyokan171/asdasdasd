@@ -1,0 +1,26 @@
+namespaceOverride: ENC[AES256_GCM,data:lqq3894=,iv:/5BFc2G8ZQoeSpSRaXkTI1GJUh4T+G+yO0hwyV59pBQ=,tag:h4ELy4aQ8PnADDfpDA75ig==,type:str]
+extraArgs:
+    - ENC[AES256_GCM,data:465pTrbdNECVZrKCOQtU9aZE2Nu3rqlatSB/dkgEnfwihQvmZimKfCBofPQ0NK3HqRl1H0HFulNsnO4gPu0V4pGyoQ4NoRVCPC34YLNQBIbbMN1UPNnW0V98n02TrSgedhgBCD/Hp6qW,iv:uGTbZzlUK/1ji4qkmvuzfz+f9Qe79SoGH876C7ttUSQ=,tag:dO0A+qFrckRj6QANpVUdig==,type:str]
+    - ENC[AES256_GCM,data:iL+9/8ixq3DwJ8MV/WzpSGeUGfitXO1djxdladcOhuYMM9q6FRQr0+zFqpbqowLvdXy1h9UeFOnsM+6dvjcMj4NBAVMog64nYXMmYZkaqQGCR87mFGHe2WVZKyzdPEMje4C4wEljKg/ZXAFZ4tTDGcqJzzXhhrZ2BVrEUszx+1aDyimyLFNPlWqtkJjRD9g3nG71jeHEVVzaak857k9hlbEtIEbkO7cfOt+IHLXtlnvWCDeHDe6GRnLuqkaN5CpZGni08A==,iv:hR7vsGCjcjIU2wMxfpRVA2rvSeiIJoy0fhQCnXkzIKo=,tag:N5MHXeQ5xaAOiA4OXnHJXQ==,type:str]
+podAnnotations:
+    prometheus.io/scrape: ENC[AES256_GCM,data:1DHcMQ==,iv:SF0WAncWf072z8d209iBJLy73mlGFrqqFLYiO5Gy59s=,tag:PCh5tlEsaQ5ctxW2QJGkmQ==,type:str]
+    prometheus.io/port: ENC[AES256_GCM,data:YLdX8A==,iv:5ipfJku0ZfcA93QL2LQhORgMIGzEXFerlPIOt9LzVFs=,tag:bW9s4Drm28kmqn/YDSIAhw==,type:str]
+tolerations:
+    - effect: ENC[AES256_GCM,data:ycl732ydW14Y,iv:w9wP0dnO8VETkcc0qqL8gaz8S0oso8FMPIK9cI8nJic=,tag:GUS2t6PgYTD32uStJlFISA==,type:str]
+      operator: ENC[AES256_GCM,data:9JsjVOkg,iv:spVZlJby6pDZ6/GZVhc5NLmFhYJnduxOeTpSp+KEdQQ=,tag:VHPrMlga3nCPpCoygxELeQ==,type:str]
+    - effect: ENC[AES256_GCM,data:QkwETTwlC+x/nQ==,iv:pZw+VZciYolw2/SMhysFqx8bOLPivM1t0TtfGFE0hNQ=,tag:pR+wq+wTa8G73DhlTJU/Ag==,type:str]
+      operator: ENC[AES256_GCM,data:x8RivGSd,iv:HU2P/g0J8FcKwtiNFzizx2KOmnJMtqdm2mo0gkE6nVo=,tag:7PykI4u9pFZOjCr8dRTXSg==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/lvn-management-dbd59c31/locations/us-central1/keyRings/lvn-management/cryptoKeys/management
+          created_at: "2022-01-10T14:49:12Z"
+          enc: CiUAIwGCwntxvD/nM4JTnplaVPFYSRBPkpYQ/RmLS5X2Q39I50XjEkkAfRjeUR6QPoQ8/KQ06Jh2SX6o2ubMHvKeNehnYS05W7XDs/37e0uS3u3ITAJX25x3tsyjvzhJDuB/BVWevykCd/BFM4oGwPbO
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2022-01-10T14:49:13Z"
+    mac: ENC[AES256_GCM,data:0XAzVU8agL3t8N4SernDdzldrU57daA2/VqQ+c5abZ1DqpqGmW1iRW5NMzwWDrSOXnDpKoA28H4yl8SZP47RvRl+Z0ozu+QxRbPlMmexdODzP1LYSOxMr7PKB06/cL2UJyV7cqfJoG7zZBgu71efRumTdoo0dZ+AJrs7H1X3Z+M=,iv:Ue7kAP0GuMAErPBSvlXsGEKBz7L3ORi7/zwwJfu2TR4=,tag:gIjqYM3M41BamuJhzri+4g==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.1
